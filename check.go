@@ -19,15 +19,17 @@ func Exit(status Status, message string) {
 
 // Represents the state of a Nagios check.
 type Check struct {
+	name     string
 	results  []Result
 	perfdata []PerfDatum
 	status   Status
 }
 
 // NewCheck returns an empty Check object.
-func NewCheck() *Check {
-	c := new(Check)
-	return c
+func NewCheck(name string) *Check {
+	return &Check{
+		name: name,
+	}
 }
 
 // AddResult adds a check result. This will not terminate the check. If
@@ -90,7 +92,7 @@ func (c Check) exitInfoText() string {
 // String representation of the check results, suitable for output and
 // parsing by Nagios.
 func (c Check) String() string {
-	value := fmt.Sprintf("%v: %s", c.status, c.exitInfoText())
+	value := fmt.Sprintf("%s %v: %s", c.name, c.status, c.exitInfoText())
 	value += RenderPerfdata(c.perfdata)
 	return value
 }
