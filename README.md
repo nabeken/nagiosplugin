@@ -1,8 +1,6 @@
-[![Build status](https://travis-ci.org/fractalcat/nagiosplugin.svg?branch=master)](https://travis-ci.org/fractalcat/nagios-plugin)
-
 # nagiosplugin
 
-Package for writing Nagios/Icinga/et cetera plugins in Go (golang).
+A Go package for writing Nagios/Icinga/et cetera plugins in Go.
 
 # Documentation
 
@@ -42,6 +40,6 @@ func main() {
 }
 ```
 
-# Language version
+# Acknowledgement
 
-Requires go >= 1.0; tested with versions up to 1.4.
+My implementation is forked from [olorin/nagiosplugin](https://github.com/olorin/nagiosplugin) in order to keep the package up-to-date.
