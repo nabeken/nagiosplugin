@@ -1,22 +1,22 @@
-[![Build status](https://travis-ci.org/fractalcat/nagiosplugin.svg?branch=master)](https://travis-ci.org/fractalcat/nagios-plugin)
-
 # nagiosplugin
 
-Package for writing Nagios/Icinga/et cetera plugins in Go (golang).
+A Go package for writing Nagios/Icinga/et cetera plugins in Go.
 
-# Documentation
+# News (as of Feb 2025)
 
-See http://godoc.org/github.com/fractalcat/nagiosplugin. 
+The `master` branch is for `github.com/nabeken/nagiosplugin/v2` (v2) version. If you're looking for the older version, please use the v1.1.1 tag.
 
 # Usage example
 
 The general usage pattern looks like this:
 
 ```go
+import "github.com/nabeken/nagiosplugin/v2"
+
 func main() {
 	// Initialize the check - this will return an UNKNOWN result
 	// until more results are added.
-	check := nagiosplugin.NewCheck()
+	check := nagiosplugin.NewCheck("CHECK")
 	// If we exit early or panic() we'll still output a result.
 	defer check.Finish()
 
@@ -42,6 +42,6 @@ func main() {
 }
 ```
 
-# Language version
+# Acknowledgement
 
-Requires go >= 1.0; tested with versions up to 1.4.
+My implementation is forked from [olorin/nagiosplugin](https://github.com/olorin/nagiosplugin) in order to keep the package up-to-date.

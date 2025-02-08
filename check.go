@@ -28,7 +28,8 @@ type Check struct {
 // NewCheck returns an empty Check object.
 func NewCheck(name string) *Check {
 	return &Check{
-		name: name,
+		name:   name,
+		status: UNKNOWN,
 	}
 }
 
@@ -40,7 +41,14 @@ func (c *Check) AddResult(status Status, message string) {
 	result.status = status
 	result.message = message
 	c.results = append(c.results, result)
-	if result.status > c.status {
+
+	// 1. allow UNKNOWN to any
+	if c.status == UNKNOWN {
+		c.status = result.status
+	}
+
+	// 2. disallow any to UNKNOWN and allow the rest
+	if result.status != UNKNOWN && result.status > c.status {
 		c.status = result.status
 	}
 }
