@@ -1,5 +1,7 @@
 # nagiosplugin
 
+[![Go](https://github.com/nabeken/nagiosplugin/actions/workflows/go.yml/badge.svg)](https://github.com/nabeken/nagiosplugin/actions/workflows/go.yml)
+
 A Go package for writing Nagios/Icinga/et cetera plugins in Go.
 
 # News (as of Feb 2025)
