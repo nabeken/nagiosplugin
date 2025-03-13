@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.2](https://github.com/nabeken/nagiosplugin/compare/v2.0.1...v2.0.2) (2025-03-13)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/nabeken/nagiosplugin/v2 to v2.0.1 ([3200386](https://github.com/nabeken/nagiosplugin/commit/320038638932a67a44819c7c5525acfc42ef56a7))
+* **deps:** update module github.com/nabeken/nagiosplugin/v2 to v2.0.1 ([7e1e23c](https://github.com/nabeken/nagiosplugin/commit/7e1e23c2d93a62798e869b27dbab0849360a8e82))
+
 ## [2.0.1](https://github.com/nabeken/nagiosplugin/compare/v2.0.0...v2.0.1) (2025-03-07)
 
 
