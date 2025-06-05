@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.0.2](https://github.com/nabeken/nagiosplugin/compare/v2.0.1...v2.0.2) (2025-06-05)
+
+
+### Bug Fixes
+
+* **deps:** update actions/create-github-app-token action to v2 ([68a20ee](https://github.com/nabeken/nagiosplugin/commit/68a20ee503d35772b6920e996e785546fb2dfd31))
+* **deps:** update actions/create-github-app-token action to v2 ([f624f2a](https://github.com/nabeken/nagiosplugin/commit/f624f2ab8ec9abc8721d2f60385b2de5d1c91a49))
+* **deps:** update actions/create-github-app-token digest to 30bf625 ([#22](https://github.com/nabeken/nagiosplugin/issues/22)) ([343bc11](https://github.com/nabeken/nagiosplugin/commit/343bc11304efef0b83135bf741e884bcb814d2d3))
+* **deps:** update actions/create-github-app-token digest to af35eda ([#18](https://github.com/nabeken/nagiosplugin/issues/18)) ([eb35d20](https://github.com/nabeken/nagiosplugin/commit/eb35d207f2f9e7e98b2cb1b062d8f481fa23d4f2))
+* **deps:** update actions/create-github-app-token digest to d72941d ([#19](https://github.com/nabeken/nagiosplugin/issues/19)) ([de19fbc](https://github.com/nabeken/nagiosplugin/commit/de19fbcc6b67d608c38fb5ae7ae1f2ec068ee4fc))
+* **deps:** update actions/create-github-app-token digest to db3cdf4 ([#23](https://github.com/nabeken/nagiosplugin/issues/23)) ([2325ffb](https://github.com/nabeken/nagiosplugin/commit/2325ffb6da6e29d571943269533209cbb3df44a2))
+* **deps:** update actions/create-github-app-token digest to df432ce ([#24](https://github.com/nabeken/nagiosplugin/issues/24)) ([4cb2868](https://github.com/nabeken/nagiosplugin/commit/4cb2868edf5c47540b032518f134b738729e9c27))
+* **deps:** update actions/setup-go digest to 0aaccfd ([#17](https://github.com/nabeken/nagiosplugin/issues/17)) ([f29b60b](https://github.com/nabeken/nagiosplugin/commit/f29b60b99ebd2f55c7dd00d18d1c6167cc3f56e9))
+* **deps:** update actions/setup-go digest to d35c59a ([#26](https://github.com/nabeken/nagiosplugin/issues/26)) ([0677eee](https://github.com/nabeken/nagiosplugin/commit/0677eeed6eceab8af6c4453d786c9b84d70e50e6))
+* **deps:** update dependency golang to v1.24.2 ([#20](https://github.com/nabeken/nagiosplugin/issues/20)) ([5917802](https://github.com/nabeken/nagiosplugin/commit/591780277e8be709b402bc37492f9f543536c47d))
+* **deps:** update dependency golang to v1.24.3 ([#25](https://github.com/nabeken/nagiosplugin/issues/25)) ([ea3212e](https://github.com/nabeken/nagiosplugin/commit/ea3212e85f2d8754f79be7384932b69dec581505))
+* **deps:** update dependency golang to v1.24.4 ([#27](https://github.com/nabeken/nagiosplugin/issues/27)) ([9717bc1](https://github.com/nabeken/nagiosplugin/commit/9717bc166a24e048e9d66dde538a3f246aad225e))
+* **deps:** update module github.com/nabeken/nagiosplugin/v2 to v2.0.1 ([3200386](https://github.com/nabeken/nagiosplugin/commit/320038638932a67a44819c7c5525acfc42ef56a7))
+* **deps:** update module github.com/nabeken/nagiosplugin/v2 to v2.0.1 ([7e1e23c](https://github.com/nabeken/nagiosplugin/commit/7e1e23c2d93a62798e869b27dbab0849360a8e82))
+
 ## [2.0.1](https://github.com/nabeken/nagiosplugin/compare/v2.0.0...v2.0.1) (2025-03-07)
 
 
