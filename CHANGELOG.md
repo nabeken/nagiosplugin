@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.0.3](https://github.com/nabeken/nagiosplugin/compare/v2.0.2...v2.0.3) (2026-04-29)
+
+
+### Bug Fixes
+
+* **deps:** update actions/create-github-app-token digest to 1b10c78 ([#67](https://github.com/nabeken/nagiosplugin/issues/67)) ([6459d81](https://github.com/nabeken/nagiosplugin/commit/6459d816aa7ed0c14ac7e10f49bf88cf92ddef7e))
+* **deps:** update actions/create-github-app-token digest to 7bd0371 ([#66](https://github.com/nabeken/nagiosplugin/issues/66)) ([e42154f](https://github.com/nabeken/nagiosplugin/commit/e42154f19581b4d1f2c224abcbaa159911413c6a))
+* **deps:** update actions/setup-go digest to 4a36011 ([#64](https://github.com/nabeken/nagiosplugin/issues/64)) ([d5dbf90](https://github.com/nabeken/nagiosplugin/commit/d5dbf9002e6016ece0f8d1210cd6e4b3c0929778))
+* **deps:** update dependency golang to v1.26.1 ([#63](https://github.com/nabeken/nagiosplugin/issues/63)) ([6ae93bd](https://github.com/nabeken/nagiosplugin/commit/6ae93bd06022ce17470384ecf7634387bfedcb85))
+* **deps:** update dependency golang to v1.26.2 ([#65](https://github.com/nabeken/nagiosplugin/issues/65)) ([4a48259](https://github.com/nabeken/nagiosplugin/commit/4a48259e781e436c844d658c69b0171c7a0790a7))
+* **deps:** update googleapis/release-please-action action to v5 ([#69](https://github.com/nabeken/nagiosplugin/issues/69)) ([c1bd2c4](https://github.com/nabeken/nagiosplugin/commit/c1bd2c489a573886cb20129c9032e1aa01bad0f3))
+* **deps:** update googleapis/release-please-action digest to 5c625bf ([#68](https://github.com/nabeken/nagiosplugin/issues/68)) ([6b51ea9](https://github.com/nabeken/nagiosplugin/commit/6b51ea9e8fdeca6d0839179e11f41bb97634e911))
+* **deps:** update module github.com/nabeken/nagiosplugin/v2 to v2.0.2 ([#61](https://github.com/nabeken/nagiosplugin/issues/61)) ([5f692f8](https://github.com/nabeken/nagiosplugin/commit/5f692f806d4555b61095b9b1d257d0a110e987c6))
+* **deps:** update suzuki-shunsuke/github-action-renovate-config-validator action to v2.1.0 ([#59](https://github.com/nabeken/nagiosplugin/issues/59)) ([04d1dff](https://github.com/nabeken/nagiosplugin/commit/04d1dff3652c682817fbabf103c00e05e862ad67))
+
 ## [2.0.2](https://github.com/nabeken/nagiosplugin/compare/v2.0.1...v2.0.2) (2026-03-14)
 
 
